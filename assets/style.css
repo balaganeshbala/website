@@ -1,0 +1,213 @@
+body {
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #212128;
+  min-width: 300px;
+}
+
+#top-views {
+  position: relative;
+  z-index: -9999;
+}
+
+#header {
+  width: 100%;
+  background-color: #212128;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#header-text {
+  width: 70%;
+  margin: auto;
+  color: #EEE;
+  font-size: 18px;
+}
+
+#cover {
+  width: 100%;
+  height: 500px;
+  text-align: left;
+  background-image: url("cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#cover-text {
+  width: 70%;
+  color: #333;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+#photo {
+  background-color: none;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#about, #contact, #account, #contact-form-container {
+  color: #AAA;
+  width: 100%;
+  background-color: #212128;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+#about-content, #contact-content, #about-title, #account-title, #contact-form-inner-container {
+  margin: auto;
+  height: auto;
+  width: 80%
+}
+
+#account-content {
+    margin: auto;
+    max-width: 700px;
+    padding-top: 40px;
+    clear: both;
+}
+
+.account-icon {
+    opacity: 0.7;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.account-icon:hover {
+    opacity: 1;
+}
+
+.about-text {
+  line-height: 28px;
+  text-align: justify;
+}
+
+.contact-card {
+  width: 350px;
+  margin: auto;
+}
+
+.contact-text {
+  clear: both;
+  align-content: center;
+}
+
+#contact-form {
+    margin: auto;
+    max-width: 700px;
+    text-align: center;
+    background-color: #212128;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.form-input {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 15px;
+     border: 0;
+     margin: auto;
+     padding : 1em;
+     -moz-border-radius: 8px;
+     -webkit-border-radius: 8px;
+     -khtml-border-radius: 8px;
+     border-radius: 8px;
+     width: 80%;
+     margin-top: 2em;
+     resize: none;
+     display: block;
+     outline: none;
+     background-color: #DFDFDF;
+}
+
+#input-message {
+    height: 130px;
+}
+
+#input-submit {
+    color: #AAA;
+    border: 2px solid #AAA;
+    background-color: inherit;
+    padding : 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#input-submit:hover {
+    color: #DDD;
+    background-color: #444;
+}
+
+a {
+  color: #FFAD65;
+}
+
+@media screen and (min-width: 925px) {
+
+   #header-text {
+      font-size: 20px;
+   }
+
+   #contact1 {
+       float: right;
+       padding-right: 2%;
+   }
+
+   #contact2 {
+       float: left;
+       margin-top: 0;
+       padding-left: 2%;
+   }
+
+   #cover {
+     height: 500px;
+   }
+
+   #cover-text {
+      font-size: 50px;
+   }
+
+   #about-content{
+      width: 70%;
+   }
+
+}
+
+@media screen and (max-width: 650px) {
+
+  #cover {
+    height: 500px;
+  }
+
+  .contact-card {
+    width: auto;
+    margin: auto;
+  }
+
+  #cover-text {
+      font-size: 32px;
+  }
+
+  #header-text, #cover-text {
+    width: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  #about-content, #contact-content, #account-title, #contact-form-inner-container {
+    width: 90%
+  }
+
+  .about-text {
+    padding: 10px;
+    text-align: justify;
+  }
+
+}
