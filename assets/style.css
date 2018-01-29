@@ -17,6 +17,14 @@ body {
   padding-bottom: 20px;
 }
 
+#footer {
+  width: 100%;
+  color: #88CBAA;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
 #header-text {
   width: 70%;
   margin: auto;
@@ -50,14 +58,14 @@ body {
 }
 
 #about, #contact, #account, #contact-form-container {
-  color: #AAA;
+  color: #BBB;
   width: 100%;
   background-color: #212128;
   text-align: center;
   padding: 20px 0px;
 }
 
-#about-content, #contact-content, #about-title, #account-title, #contact-form-inner-container {
+#about-content, #contact-content, #about-title, #account-title, #contact-form-inner-container, #contact-form-text {
   margin: auto;
   height: auto;
   width: 80%
@@ -83,7 +91,7 @@ body {
 
 .about-text {
   line-height: 28px;
-  text-align: justify;
+  text-align: center;
 }
 
 .contact-card {
@@ -146,7 +154,22 @@ body {
 }
 
 a {
-  color: #FFAD65;
+  color: #CCC;
+}
+
+.account-icon-image {
+  margin: 0 auto;
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+
+.contact-icon-image {
+  margin: 0 auto;
+  margin-top: -20px;
+  position: relative;
+  width: 40px;
+  height: 40px;
 }
 
 @media screen and (min-width: 925px) {
@@ -174,7 +197,11 @@ a {
       font-size: 50px;
    }
 
-   #about-content{
+   .contact-text {
+      height: 120px;
+   }
+
+   #about-content, #contact-form-text{
       width: 70%;
    }
 
@@ -207,7 +234,6 @@ a {
 
   .about-text {
     padding: 10px;
-    text-align: justify;
   }
 
 }

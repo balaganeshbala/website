@@ -5,7 +5,7 @@ class Header extends React.Component {
       return (
          <div id="header">
             <div id="header-text">
-              Balaganesh Sevarkodiyon
+              	Balaganesh <span style={{ color: "#88CBAA" }}>Sevarkodiyon</span>
             </div>
          </div>
       );

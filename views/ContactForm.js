@@ -41,7 +41,11 @@ class ContactForm extends React.Component {
       return (
         <div id="contact-form-container">
             <div id="contact-form-inner-container">
-                <Title text="Drop Me A Line" textWidth="200px" bgColor="#902C55" textColor="#DDD"/>
+                <Title text="DROP ME A LINE" textWidth="200px" bgColor="#88CBAA" textColor="#88CBAA"/>
+                <br/><br/>
+                <p id="contact-form-text">
+                  I’d love to hear from you! Please feel free to get in touch with any questions or comments and I will get back to you as soon as possible.
+                </p>
                 <br/>
                 <form id="contact-form" onSubmit={this.onMessageSubmit.bind(this)}>
                     <input type="text" className="form-input" id="input-name" placeholder="Name" required="required"/>

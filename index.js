@@ -6,6 +6,7 @@ import About from './views/About'
 import Contact from './views/Contact'
 import Account from './views/Account'
 import ContactForm from './views/ContactForm'
+import Footer from './views/Footer'
 
 class Main extends React.Component {
   render() {
@@ -20,6 +21,7 @@ class Main extends React.Component {
           <Contact />
           <ContactForm />
           <Account />
+          <Footer />
         </div>
       </div>
     );
