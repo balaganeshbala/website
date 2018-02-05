@@ -16,7 +16,7 @@ class ContactForm extends React.Component {
        }
 
        request
-        .post('http://server.balaganesh.in/mail.php')
+        .post('http://balaganesh.pythonanywhere.com/mail')
         .send({
         	name: name.value,
             email: email.value,
