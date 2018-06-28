@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'avenir-book';
+    src: url('../fonts/AvenirLTStd-Book.eot');
+    src: url('../fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTStd-Book.woff2') format('woff2'),
+        url('../fonts/AvenirLTStd-Book.woff') format('woff'),
+        url('../fonts/AvenirLTStd-Book.ttf') format('truetype'),
+        url('../fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#footer {
+	width: 100%x;
+	height: 50px;
+	text-align: center;
+	background-color: #F0F0F0;
+	position: relative;
+	float: bottom;
+	margin-top: 70px;
+	min-width: 300px;
+}
+
+#footer-text {
+	font-family: avenir-book; 
+	line-height: 50px;
+	font-size: 15px;
+}
+
+ /*"max-age=604800000"  */

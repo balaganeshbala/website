@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'avenir-book';
+    src: url('../fonts/AvenirLTStd-Book.eot');
+    src: url('../fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTStd-Book.woff2') format('woff2'),
+        url('../fonts/AvenirLTStd-Book.woff') format('woff'),
+        url('../fonts/AvenirLTStd-Book.ttf') format('truetype'),
+        url('../fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#contact-details-container {
+	font-family: avenir-book;
+	font-size: 15px;
+}
+
+.icon-cell {
+	width: 75px;
+	text-align: left;
+	vertical-align: top;
+}
+
+td {
+	vertical-align: top;
+}
+
+.mail-link {
+	color: #000;
+	text-decoration: underline;
+}
+
+.last {
+	padding-top: 5px;
+}
+
+@media screen and (min-width: 864px) {
+
+	#contact-details-table {
+		width: 220px;
+		margin-left: 34px;
+		border-spacing: 37px;
+	}
+	
+	#contact-details-container {
+		float: left;
+	}
+}
+
+@media screen and (max-width: 863px) {
+
+	#contact-details-container {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}		
+
+	.contact-details-cell {
+		text-align: left;
+	}
+
+	#contact-details-table {
+		width: 200px;
+		margin: 0 auto;
+		border-spacing: 30px;
+	}
+}

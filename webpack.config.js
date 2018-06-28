@@ -1,27 +1,38 @@
-var webpack = require('webpack');
+const webpack = require('webpack');
+const path = require('path');
+const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 module.exports = {
-  entry: './index.js',
+  devServer: {
+    historyApiFallback: true,
+    hot: true,
+    inline: true,
+    progress: true,
+    contentBase: './app',
+    port: 8080
+  },
+  entry: [
+    'webpack/hot/dev-server',
+    'webpack-dev-server/client?http://localhost:8080',
+    path.resolve(__dirname, 'app/main.js')
+  ],
   output: {
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, 'build'),
+    publicPath: '/',
+    filename: './bundle.js'
   },
   module: {
-     loaders: [{
-       test: /\.jsx?$/,
-          exclude: /node_modules/,
-          loader: 'babel-loader',
-          query: {
-             presets: ['es2015', 'react']
-          }
-     }]
- },
- devServer: {
-    compress: true,
-    disableHostCheck: true,   // That solved it
+    loaders: [
+      { test: /\.(ttf|eot|woff|woff2|svg)$/, include: path.resolve(__dirname, '.'), loader: "file-loader" },
+      { test: /\.css$/, include: path.resolve(__dirname, '.'), loader: 'style-loader!css-loader' },
+      { test: /\.js[x]?$/, include: path.resolve(__dirname, 'app'), exclude: /node_modules/, loader: 'babel-loader' }
+    ]
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      compress: { warnings: false }
-    })
+    new webpack.HotModuleReplacementPlugin(),
+    new OpenBrowserPlugin({ url: 'http://localhost:8080' })
   ]
-}
+};
