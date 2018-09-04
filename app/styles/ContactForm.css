@@ -41,7 +41,7 @@
 	height: 30px;
 	font-size: 14px;
 	border: none;
-	background-color: #5172C5;
+	background-color: #2A50A9;
 	color: #FFF;
 	-moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -56,7 +56,7 @@
 }
 
 #submit-button:active {
-	background-color: #5172C5;
+	background-color: #2A50A9;
 }
 
 ::placeholder {

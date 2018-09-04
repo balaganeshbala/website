@@ -1,7 +1,7 @@
 #header {
 	width: 100%;
 	height: 80px;
-	background-color: #5172C5;
+	background-color: #2A50A9;
 	min-width: 300px;
 }
 
@@ -26,4 +26,22 @@ a {
 .social-icon-cell {
 	text-align: center;
 	vertical-align: bottom;
+}
+
+@media screen and (max-width: 581px) {
+
+	#logo {
+		margin-left: 30px;
+	}
+}
+
+@media screen and (max-width: 516px) {
+
+	#logo {
+		margin-left: 25px;
+	}
+
+	#icon-table {
+		margin-right: 20px;
+	}
 }
