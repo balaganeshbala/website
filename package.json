@@ -4,8 +4,6 @@
   "description": "My personal website",
   "main": "app/main.js",
   "scripts": {
-    "precommit": "npm run lint",
-    "commitmsg": "npm run lint:msg",
     "lint": "eslint --cache --ignore-path .gitignore --ext .jsx,.js --format=node_modules/eslint-formatter-pretty .",
     "lint:msg": "validate-commit-msg",
     "test": "npm run lint",
@@ -14,7 +12,6 @@
     "deploy": "NODE_ENV=production webpack --config webpack.production.config.js",
     "deploy-windows": "SET NODE_ENV=production & webpack --config webpack.production.config.js",
     "validate": "npm ls",
-    "commit": "git cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1"
   },
   "dependencies": {
