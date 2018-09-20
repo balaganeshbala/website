@@ -41,7 +41,7 @@
 	height: 30px;
 	font-size: 14px;
 	border: none;
-	background-color: #2A50A9;
+	background-color: #0F4464;
 	color: #FFF;
 	-moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -52,11 +52,11 @@
 }
 
 #submit-button:hover {
-	background-color: #4265BD;
+	background-color: #22799D;
 }
 
 #submit-button:active {
-	background-color: #2A50A9;
+	background-color: #0F4464;
 }
 
 ::placeholder {
