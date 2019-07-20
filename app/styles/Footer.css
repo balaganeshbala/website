@@ -12,13 +12,14 @@
 
 #footer {
 	width: 100%x;
-	height: 50px;
+	height: 70px;
 	text-align: center;
 	background-color: #F0F0F0;
 	position: relative;
 	float: bottom;
 	margin-top: 70px;
 	min-width: 300px;
+	border-top: #dddddd 1px solid;
 }
 
 #footer-text {

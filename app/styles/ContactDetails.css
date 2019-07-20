@@ -25,13 +25,17 @@ td {
 	vertical-align: top;
 }
 
-.mail-link {
+.link {
 	color: #000;
 	text-decoration: underline;
 }
 
-.last {
+.last, .first {
 	padding-top: 3px;
+}
+
+#contact-details-table {
+	margin-top: 5px;
 }
 
 @media screen and (min-width: 864px) {

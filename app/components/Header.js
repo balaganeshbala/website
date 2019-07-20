@@ -24,11 +24,6 @@ export default class Header extends React.Component {
 	  								</a>
 	  							</td>
 	  							<td className="social-icon-cell">
-	  								<a className="account-icon" href="https://blog.balaganesh.in" target="_blank">
-	  									<img width="18px" height="16px" src="../images/blogger.svg" />
-	  								</a>
-	  							</td>
-	  							<td className="social-icon-cell">
 	  								<a className="account-icon" href="https://github.com/balaganeshbala" target="_blank">
 	  									<img width="18px" height="17px" src="../images/github.svg" />
 	  								</a>
