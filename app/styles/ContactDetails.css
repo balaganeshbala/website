@@ -12,7 +12,7 @@
 
 #contact-details-container {
 	font-family: avenir-book;
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .icon-cell {
@@ -31,7 +31,7 @@ td {
 }
 
 .last {
-	padding-top: 5px;
+	padding-top: 3px;
 }
 
 @media screen and (min-width: 864px) {
