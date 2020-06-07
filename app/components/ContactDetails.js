@@ -23,7 +23,7 @@ export default class ContactDetails extends React.Component {
 	  							</td>
 	  						</tr>
 	  						<tr>
-	  							<td className="icon-cell"><img width="24px" height="18px" src="../images/envelope.svg" /></td>
+	  							<td className="icon-cell"><img width="24px" height="24px" src="../images/envelope.svg" /></td>
 	  							<td className="contact-details-cell">
 	  								<a className="link" href="mailto:me@balaganesh.in?subject=Hello%20Balaganesh"><span>me@balaganesh.in</span></a><br /><br />
 	  							</td>
