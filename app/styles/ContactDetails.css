@@ -1,24 +1,11 @@
-@font-face {
-    font-family: 'avenir-book';
-    src: url('../fonts/AvenirLTStd-Book.eot');
-    src: url('../fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/AvenirLTStd-Book.woff2') format('woff2'),
-        url('../fonts/AvenirLTStd-Book.woff') format('woff'),
-        url('../fonts/AvenirLTStd-Book.ttf') format('truetype'),
-        url('../fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 #contact-details-container {
-	font-family: avenir-book;
-	font-size: 15px;
+	font-size: 16px;
+	font-weight: 300;
 }
 
 .icon-cell {
 	width: 75px;
 	text-align: left;
-	vertical-align: top;
 }
 
 td {
@@ -31,7 +18,7 @@ td {
 }
 
 .last {
-	padding-top: 5px;
+	padding-top: 3px;
 }
 
 @media screen and (min-width: 864px) {

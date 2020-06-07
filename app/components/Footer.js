@@ -14,7 +14,7 @@ export default class Footer extends React.Component {
 
   	render() {
 	  	return(<div id="footer">
-	  				<p id="footer-text">Thanks for visiting !!</p>
+	  				<p id="footer-text">Thank you for visiting !!</p>
 			   </div>);
   	}
 }

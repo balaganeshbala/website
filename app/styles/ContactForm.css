@@ -1,20 +1,8 @@
-@font-face {
-    font-family: 'avenir-book';
-    src: url('../fonts/AvenirLTStd-Book.eot');
-    src: url('../fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/AvenirLTStd-Book.woff2') format('woff2'),
-        url('../fonts/AvenirLTStd-Book.woff') format('woff'),
-        url('../fonts/AvenirLTStd-Book.ttf') format('truetype'),
-        url('../fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 #contact-form-container {
-	font-family: avenir-book;
 	margin-top: 40px;
 	margin-right: 70px;
 	vertical-align: top;
+	font-weight: 300;
 }
 
 .input-field {
@@ -27,8 +15,8 @@
     border-radius: 5px;
     font-size: 14px;
     padding: 5px;
-    outline: none;
-    font-family: avenir-book;
+	outline: none;
+	font-weight: 300;
 }
 
 #message-input {
@@ -36,7 +24,6 @@
 }
 
 #submit-button {
-	font-family: avenir-book;
 	width: 245px;
 	height: 30px;
 	font-size: 14px;
@@ -48,7 +35,7 @@
     -khtml-border-radius: 5px;
     border-radius: 5px;
     outline: none;
-    font-weight: bold;
+	font-weight: 300;
 }
 
 #submit-button:hover {
@@ -60,8 +47,8 @@
 }
 
 ::placeholder {
-	font-family: avenir-book;
 	font-size: 14px;
+	font-weight: 300;
 }
 
 @media screen and (min-width: 864px) {
