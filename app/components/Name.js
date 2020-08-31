@@ -15,11 +15,13 @@ export default class Name extends React.Component {
     render() {
         return ( <div id="name-container">
             <div id="inner-container">
-                <img id="photo" width="200px" height="200px" src="../images/photo.jpg" />
-                <div id="right-text">
-                    <span id="name-text">BALAGANESH SEVARKODIYON</span><br/>
-                    <span id="designation-text">Software Development Engineer</span> 
-                </div> 
+                <div id="photo-container">
+                  <img id="photo" width="200px" height="200px" src="../images/photo.jpg" />
+                </div>
+                <div id="bottom-text">
+                  <span id="name-text">BALAGANESH SEVARKODIYON</span>
+                  <span id="designation-text">Software Development Engineer</span>
+                </div>
             </div>
         </div>);
     }

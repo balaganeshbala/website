@@ -1,127 +1,51 @@
-  
+
 #name-container {
 	width: 100%;
-	background-color: #F0F0F0;
 	text-align: center;
 	vertical-align: middle;
-	position: relative;
-	border-bottom: #dddddd solid 1px;
+  position: relative;
+  min-width: 300px;
 }
 
 #inner-container {
 	top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-	position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  min-height: 360px;
+}
+
+#photo-container {
+  width: 260px;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 80px;
+}
+
+#photo {
+  border: 5px solid #ffffff;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(110,110,110,1);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(110,110,110,1);
+  box-shadow: 0px 0px 3px 0px rgba(110,110,110,1);
 }
 
 #name-text {
-	font-size: 36px;
-	position: absolute;
+  font-size: 36px;
+  margin-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
 }
 
 #designation-text {
 	font-size: 20px;
-	color: #575757;
-	position: absolute;
-}
-
-@media screen and (min-width: 864px) {
-
-
-	#name-container {
-		height: 300px;
-	}
-
-	#right-text {
-		float: right;
-		width: 550px;
-	}
-
-	#inner-container {
-		top:0;
-	    bottom: 0;
-	    left: 0;
-	    right: 0;
-	    margin: auto;
-		width: 800px;
-		height: 200px;
-		text-align: left;
-		position: absolute;
-	}
-
-	#name-text {
-		margin-top: 62px;
-	}
-
-	#designation-text {
-		margin-top: 102px;
-	}
-}
-
-@media screen and (max-width: 863px) {
-
-	#name-container {
-		height: 420px;
-	}
-
-	#photo {
-		position: relative;
-		display: block;
-		top: 50px;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		margin: auto; 
-	}
-
-	#right-text {
-		display: inline-block;
-		margin: 0 auto;
-		width: 90%;
-	}
-
-	#inner-container {
-		width: 100%;
-		text-align: center;
-	}
-
-	#name-text {
-		text-align: center;
-		position: relative;
-		width: 100%;
-		top: 100px;
-	}
-
-	#designation-text {
-		position: relative;
-		width: 100%;
-		top: 110px;
-	}
-}
-
-@media screen and (max-width: 581px) {
-
-	#name-text {
-		font-size: 32px;
-	}
-
-	#designation-text {
-		font-size: 18px;
-		top: 110px;
-	}
-}
-
-@media screen and (max-width: 495px) {
-
-	#name-container {
-		height: 450px;
-		min-width: 300px;
-	}
-
-	#designation-text {
-		top: 110px;
-	}
+  color: #575757;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+  margin-top: 15px;
 }
