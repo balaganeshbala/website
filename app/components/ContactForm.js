@@ -29,7 +29,7 @@ export default class ContactForm extends React.Component {
        }
 
        request
-        .post('https://cloudpigeon.herokuapp.com/mail')
+        .post('https://cloudpigeon.cyclic.app/mail')
         .send({
             name: name.value,
             email: email.value,

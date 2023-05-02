@@ -30,7 +30,6 @@
     "babel-preset-stage-0": "6.x",
     "commitizen": "^2.9.3",
     "conventional-changelog-cli": "1.x",
-    "copy-webpack-plugin": "latest",
     "css-loader": "~0.26.1",
     "file-loader": "^1.1.11",
     "cz-conventional-changelog": "^1.2.0",

@@ -1,6 +1,5 @@
 const webpack = require('webpack');
 const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
@@ -35,12 +34,6 @@ module.exports = {
       'process.env': {
         NODE_ENV: JSON.stringify('production')
       }
-    }),
-    new CopyWebpackPlugin([
-      { from: './app/images/', to: 'images/' },
-      { from: './app/index.html', to: 'index.html' },
-      { from: './app/main.css', to: 'main.css' },
-      { from: './app/favicon.ico', to: 'favicon.ico' }
-    ])
+    })
   ]
 };
